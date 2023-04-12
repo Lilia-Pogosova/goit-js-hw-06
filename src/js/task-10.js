@@ -40,11 +40,12 @@ divElement.style.marginBottom = '30px';
 divElement.style.backgroundColor = getRandomHexColor();
 divArray.push(divElement);
 
-  divBoxesEl.appendChild(divElement);
 }
 return divBoxesEl.append(...divArray);
 }
 
 function destroyBoxesMarkup() {
 inputNumberEl.value = '';
-  return (divBoxesEl.innerHTML = '');}
+  return (divBoxesEl.innerHTML = '');
+}
+  
